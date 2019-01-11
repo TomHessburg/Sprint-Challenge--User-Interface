@@ -70,6 +70,8 @@ p {
 
 
 
+
+
 /* my stylings start */
 
 
@@ -158,7 +160,6 @@ p {
         /* main flex section stylings*/
 
 
-
 .four-flex-items-section {
     display: flex;
     justify-content: space-around;
@@ -174,21 +175,13 @@ p {
     border-bottom: 1px dashed black;
 }
 
-
-
-
 @media only screen and (Max-width: 600px) {
 
     .four-flex-items-section {
         flex-direction: column;
         align-items: center;
     }
-
 }
-
-
-
-
 /* animation section*/
 .navigation-bar {
     animation-duration: 500ms;
