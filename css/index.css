@@ -66,6 +66,46 @@ p {
     line-height: 1.4;
 }
 
+
+
+
+
+
+
+.navigation-bar {
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 20px 0 40px 0;
+}
+
+.navigation-bar nav a {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+   
+}
+
+.navigation-bar nav {
+    width: 600px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -144,3 +184,11 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
