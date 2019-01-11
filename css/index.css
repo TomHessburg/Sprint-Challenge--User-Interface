@@ -66,6 +66,165 @@ p {
     line-height: 1.4;
 }
 
+
+
+
+
+
+
+/* my stylings start */
+
+
+    /* nav bar stylings and img 1 stylings*/
+
+.navigation-bar {
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 20px 0 40px 0;
+}
+
+.navigation-bar nav a {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+   
+}
+
+.navigation-bar nav {
+    width: 600px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topCenter {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.about-navbar {
+    margin: 0 auto;
+}
+
+
+/*coloring boxes */
+#boxone {
+    background: teal;
+}
+#boxtwo {
+    background: gold;
+}
+#boxthree {
+    background: cadetblue;
+}
+#boxfour {
+    background: coral;
+}
+#boxfive {
+    background: crimson;
+}
+#boxsix {
+    background: forestgreen;
+}
+#boxseven {
+    background: darkorchid;
+}
+#boxeight {
+    background: hotpink;
+}
+#boxnine {
+    background: indigo;
+}
+#boxten {
+    background: dodgerblue;
+}
+
+
+
+    /* about page stylings */
+
+.about-section-one {
+    padding: 20px;
+    border-bottom: 2px dashed black;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+}
+
+.work-together {
+    margin: 40px;
+}
+
+        /* main flex section stylings*/
+
+
+.four-flex-items-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.middle-flex {
+    
+    width: 355px;
+    margin: 20px;
+    padding: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+
+@media only screen and (Max-width: 600px) {
+
+    .four-flex-items-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* animation section*/
+.navigation-bar {
+    animation-duration: 500ms;
+    animation-name: slide-down;
+}
+
+@keyframes slide-down {
+    from {
+        margin-top: 50%;
+    }
+    to {
+        margin-top: 0%
+    }
+}
+/* end animation section*/
+
+
+
+.middle-flex img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.middle-flex p {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.lm-button {
+    width: 40%;
+    text-align: center;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+
+
+
+/* my stylings end (see bottom of page for blog page stylings....)*/
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +302,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* blog page stylings*/
+
+.lineargradientheader {
+    width: 100%;
+    height: 140px;
+    background: -webkit-linear-gradient(top, rgba(69,72,77,0.53) 0%,rgba(40,42,45,0.53) 32%,rgba(0,0,0,0.64) 76%,rgba(0,0,0,0.65) 82%);
+    padding: 80px;
+    padding-bottom: 50px;
+    margin-bottom: 55px;
+}
+
+.blogpost {
+    margin: 0 auto;
+    width: 90%;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: 0px 1px 15px black;
+    background: #fcf7fb;
+}
+
+
+.blogimg{
+    width: 180px;
+    height: 180px;
+    background: rgb(40, 21, 19);
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px 0;
+
+}
+
+.blogpost-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.blogpost h2 {
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.blogpost p {
+    line-height: 25px;
+}
+
+
+.blogpostbutton{
+    width: 150px;
+    font-size: 17px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 15px;
+    text-decoration: underline;
+    background: white;
+    box-shadow: 0px 0px 3px black;
 }
