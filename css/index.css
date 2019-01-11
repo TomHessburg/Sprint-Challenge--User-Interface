@@ -108,12 +108,46 @@ p {
 }
 
 
+/*coloring boxes */
+#boxone {
+    background: teal;
+}
+#boxtwo {
+    background: gold;
+}
+#boxthree {
+    background: cadetblue;
+}
+#boxfour {
+    background: coral;
+}
+#boxfive {
+    background: crimson;
+}
+#boxsix {
+    background: forestgreen;
+}
+#boxseven {
+    background: darkorchid;
+}
+#boxeight {
+    background: hotpink;
+}
+#boxnine {
+    background: indigo;
+}
+#boxten {
+    background: dodgerblue;
+}
+
+
 
     /* about page stylings */
 
 .about-section-one {
-    padding: 25px;
+    padding: 20px;
     border-bottom: 2px dashed black;
+    padding-bottom: 50px;
     margin-bottom: 25px;
 }
 
@@ -133,9 +167,10 @@ p {
 
 .middle-flex {
     
-    width: 350px;
+    width: 355px;
     margin: 20px;
-    padding: 10px;
+    padding: 5px;
+    padding-bottom: 15px;
     border-bottom: 1px dashed black;
 }
 
@@ -250,34 +285,4 @@ footer nav a {
 
 
 
-/*coloring boxes */
-#boxone {
-    background: teal;
-}
-#boxtwo {
-    background: gold;
-}
-#boxthree {
-    background: cadetblue;
-}
-#boxfour {
-    background: coral;
-}
-#boxfive {
-    background: crimson;
-}
-#boxsix {
-    background: forestgreen;
-}
-#boxseven {
-    background: darkorchid;
-}
-#boxeight {
-    background: hotpink;
-}
-#boxnine {
-    background: indigo;
-}
-#boxten {
-    background: dodgerblue;
-}
+
