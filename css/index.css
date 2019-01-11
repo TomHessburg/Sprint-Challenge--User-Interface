@@ -132,23 +132,30 @@ p {
 }
 
 .middle-flex {
+    
     width: 350px;
     margin: 20px;
     padding: 10px;
+    border-bottom: 1px dashed black;
 }
 
+.middle-flex img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.middle-flex p {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.lm-button {
+    width: 40%;
+    text-align: center;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+}
 
 
 
@@ -243,3 +250,34 @@ footer nav a {
 
 
 
+/*coloring boxes */
+#boxone {
+    background: teal;
+}
+#boxtwo {
+    background: gold;
+}
+#boxthree {
+    background: cadetblue;
+}
+#boxfour {
+    background: coral;
+}
+#boxfive {
+    background: crimson;
+}
+#boxsix {
+    background: forestgreen;
+}
+#boxseven {
+    background: darkorchid;
+}
+#boxeight {
+    background: hotpink;
+}
+#boxnine {
+    background: indigo;
+}
+#boxten {
+    background: dodgerblue;
+}
