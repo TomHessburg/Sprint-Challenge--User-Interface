@@ -298,26 +298,51 @@ footer nav a {
 
 .blogpost {
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     border: 2px solid black;
     margin-bottom: 40px;
     margin-top: 20px;
     padding: 15px;
+    box-shadow: 0px 1px 15px black;
+    background: #fcf7fb;
 }
 
 
 .blogimg{
     width: 180px;
     height: 180px;
-    background: black;
+    background: rgb(40, 21, 19);
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px 0;
+
 }
 
 .blogpost-top {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .blogpost h2 {
-    font-size: 45px;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.blogpost p {
+    line-height: 25px;
+}
+
+
+.blogpostbutton{
+    width: 150px;
+    font-size: 17px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 15px;
+    text-decoration: underline;
+    background: white;
+    box-shadow: 0px 0px 3px black;
 }
