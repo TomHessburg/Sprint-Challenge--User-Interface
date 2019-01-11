@@ -70,7 +70,7 @@ p {
 
 
 
-
+/* my stylings start */
 
 .navigation-bar {
     width: 800px;
@@ -95,14 +95,19 @@ p {
     justify-content: space-around;
 }
 
+.topCenter {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.about-navbar {
+    margin: 0 auto;
+}
 
 
 
 
-
-
-
-
+/* my stylings end*/
 
 
 
