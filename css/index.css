@@ -72,6 +72,9 @@ p {
 
 /* my stylings start */
 
+
+    /* nav bar stylings and img 1 stylings*/
+
 .navigation-bar {
     width: 800px;
     display: flex;
@@ -103,6 +106,49 @@ p {
 .about-navbar {
     margin: 0 auto;
 }
+
+
+
+    /* about page stylings */
+
+.about-section-one {
+    padding: 25px;
+    border-bottom: 2px dashed black;
+    margin-bottom: 25px;
+}
+
+.work-together {
+    margin: 40px;
+}
+
+        /* main flex section stylings*/
+
+
+
+.four-flex-items-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.middle-flex {
+    width: 350px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
